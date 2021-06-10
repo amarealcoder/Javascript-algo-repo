@@ -59,27 +59,76 @@
       // let johnMass = 92;
       // let johnHeight = 1.95;
 
-      let markMass = 95;
-      let markHeight = 1.88;
-      let johnMass = 85;
-      let johnHeight = 1.76;
+      // let markMass = 95;
+      // let markHeight = 1.88;
+      // let johnMass = 85;
+      // let johnHeight = 1.76;
 
-      let markBmi = markMass / (markHeight * markHeight);
-      let johnBmi = johnMass / johnHeight ** 2;
+      // let markBmi = markMass / (markHeight * markHeight);
+      // let johnBmi = johnMass / johnHeight ** 2;
 
-      let markHigherBMI = markBmi > johnBmi;
+      // let markHigherBMI = markBmi > johnBmi;
 
-      console.log(markBmi, johnBmi, markHigherBMI);
+      // console.log(markBmi, johnBmi, markHigherBMI);
 
-      if (markHigherBMI) {
-        console.log(
-          `Mark's BMI (${markBmi}) is higher than John's (${johnBmi})`
-        );
+      // if (markHigherBMI) {
+      //   console.log(
+      //     `Mark's BMI (${markBmi}) is higher than John's (${johnBmi})`
+      //   );
+      // } else {
+      //   console.log(
+      //     `John's BMI (${johnBmi}) is higher than Mark's (${markBmi})`
+      //   );
+      // }
+
+      // const dolphinesAverage = (96 + 108 + 89) / 3;
+      // const koalasAverage = (88 + 91 + 110) / 3;
+      // const minimumScore = 100;
+      // console.log(dolphinesAverage, koalasAverage);
+
+      const dolphinesAverage = (97 + 112 + 101) / 3;
+      const koalasAverage = (109 + 95 + 106) / 3;
+      const minimumScore = 100;
+      console.log(dolphinesAverage, koalasAverage);
+
+      // const dolphinesAverage = (96 + 108 + 89) / 3;
+      // const koalasAverage = (88 + 91 + 106) / 3;
+      // const minimumScore = 100;
+      // console.log(dolphinesAverage, koalasAverage);
+
+      if (
+        dolphinesAverage > koalasAverage &&
+        dolphinesAverage >= minimumScore
+      ) {
+        console.log("The dolphines won");
+      } else if (
+        koalasAverage > dolphinesAverage &&
+        koalasAverage >= minimumScore
+      ) {
+        console.log("The Koalas won");
+      } else if (
+        dolphinesAverage === koalasAverage &&
+        dolphinesAverage >= minimumScore &&
+        koalasAverage >= minimumScore
+      ) {
+        console.log("There's a draw!");
       } else {
-        console.log(
-          `John's BMI (${johnBmi}) is higher than Mark's (${markBmi})`
-        );
+        console.log("No team has won the trophy!");
       }
+      // if (
+      //   (dolphinesAverage > koalasAverage &&
+      //     dolphinesAverage >= minimumScore) ||
+      //   koalasAverage >= minimumScore
+      // ) {
+      //   console.log("The Dolphines won");
+      // } else if (
+      //   dolphinesAverage === koalasAverage ||
+      //   (dolphinesAverage && koalasAverage >= minimumScore)
+      // ) {
+      //   console.log("There's a draw");
+      // } else {
+      //   console.log("The Koalas won");
+      // }
     </script>
   </body>
 </html>
