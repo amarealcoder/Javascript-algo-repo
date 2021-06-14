@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Js ALgos</title>
+    <title>Js ALgo Repo</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <script>
@@ -86,49 +87,231 @@
       // const minimumScore = 100;
       // console.log(dolphinesAverage, koalasAverage);
 
-      const dolphinesAverage = (97 + 112 + 101) / 3;
-      const koalasAverage = (109 + 95 + 106) / 3;
-      const minimumScore = 100;
-      console.log(dolphinesAverage, koalasAverage);
+      // const dolphinesAverage = (97 + 112 + 101) / 3;
+      // const koalasAverage = (109 + 95 + 106) / 3;
+      // const minimumScore = 100;
+      // console.log(dolphinesAverage, koalasAverage);
 
       // const dolphinesAverage = (96 + 108 + 89) / 3;
       // const koalasAverage = (88 + 91 + 106) / 3;
       // const minimumScore = 100;
       // console.log(dolphinesAverage, koalasAverage);
 
-      if (
-        dolphinesAverage > koalasAverage &&
-        dolphinesAverage >= minimumScore
-      ) {
-        console.log("The dolphines won");
-      } else if (
-        koalasAverage > dolphinesAverage &&
-        koalasAverage >= minimumScore
-      ) {
-        console.log("The Koalas won");
-      } else if (
-        dolphinesAverage === koalasAverage &&
-        dolphinesAverage >= minimumScore &&
-        koalasAverage >= minimumScore
-      ) {
-        console.log("There's a draw!");
-      } else {
-        console.log("No team has won the trophy!");
-      }
       // if (
-      //   (dolphinesAverage > koalasAverage &&
-      //     dolphinesAverage >= minimumScore) ||
+      //   dolphinesAverage > koalasAverage &&
+      //   dolphinesAverage >= minimumScore
+      // ) {
+      //   console.log("The dolphines won");
+      // } else if (
+      //   koalasAverage > dolphinesAverage &&
       //   koalasAverage >= minimumScore
       // ) {
-      //   console.log("The Dolphines won");
-      // } else if (
-      //   dolphinesAverage === koalasAverage ||
-      //   (dolphinesAverage && koalasAverage >= minimumScore)
-      // ) {
-      //   console.log("There's a draw");
-      // } else {
       //   console.log("The Koalas won");
+      // } else if (
+      //   dolphinesAverage === koalasAverage &&
+      //   dolphinesAverage >= minimumScore &&
+      //   koalasAverage >= minimumScore
+      // ) {
+      //   console.log("There's a draw!");
+      // } else {
+      //   console.log("No team has won the trophy!");
       // }
+      // let day = "day";
+      // if (day === "monday") {
+      //   console.log("Plan course structure");
+      //   console.log("Go to coding meetup");
+      // } else if (day === "tuesday") {
+      //   console.log("Prepare theory videos");
+      // } else if (day === "wednesday" || day === "thursday") {
+      //   console.log("Write code examples");
+      // } else if (day === "friday") {
+      //   console.log("Record videos");
+      // } else if (day === "saturday" || day === "sunday") {
+      //   console.log("Enjoy the weekend");
+      // } else {
+      //   console.log("Not a valid day!");
+      // }
+
+      // let billValue = 275;
+      // let tip15Percent = 275 * (15 / 100);
+      // let totalValue = billValue + tip15Percent;
+      // console.log(totalValue);
+
+      // let billValue = 40;
+      // let tip20Percent = 40 * (20 / 100);
+      // let totalValue = billValue + tip20Percent;
+      // console.log(tip20Percent);
+
+      // billValue >= 50 && billValue <= 300
+      //   ? console.log(
+      //       `The bill was ${billValue}, the tip was ${tip15Percent} and the total value is ${totalValue}`
+      //     )
+      //   : console.log(
+      //       `The bill was ${billValue}, the tip was ${tip20Percent} and the total value is ${totalValue}`
+      //     );
+      // "use Strict";
+      // const calcAverage = (score1, score2, score3) => {
+      //   const average = (score1 + score2 + score3) / 3;
+      //   return average;
+      // };
+      // let avgDolphines = calcAverage(44, 23, 71);
+      // let avgKoalas = calcAverage(65, 54, 49);
+      // console.log(avgDolphines, avgKoalas);
+
+      // const checkWinner = (avgDolphines, avgKoalas) => {
+      //   if (avgDolphines >= 2 * avgKoalas) {
+      //     console.log(`Dolphines win (${avgDolphines} vs. ${avgKoalas})`);
+      //   } else if (avgKoalas >= 2 * avgDolphines) {
+      //     console.log(`Koalas win (${avgKoalas} vs. ${avgDolphines})`);
+      //   } else {
+      //     console.log("No team won");
+      //   }
+      // };
+      // checkWinner(avgDolphines, avgKoalas);
+      // avgDolphines = calcAverage(85, 54, 41);
+      // avgKoalas = calcAverage(23, 34, 27);
+      // checkWinner(avgDolphines, avgKoalas);
+      // "use Strict";
+
+      // const calcTip = (bill) => {
+      //   return bill >= 50 && bill <= 300
+      //     ? (15 / 100) * bill
+      //     : (tip = (20 / 100) * bill);
+      // };
+      // console.log(calcTip(100));
+
+      // const bills = [125, 555, 44];
+      // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+      // console.log(tips);
+
+      // const total = [
+      //   bills[0] + tips[0],
+      //   bills[1] + tips[1],
+      //   bills[2] + tips[2],
+      // ];
+      // console.log(total);
+
+      // const jonas = {
+      //   firstName: "Jonas",
+      //   LastName: "Schmedtmann",
+      //   birthYear: 1991,
+      //   job: "teacher",
+      //   friends: ["Michael", "Peter", "Steven"],
+      //   hasDriversLicense: false,
+
+      //   calcAge: function () {
+      //     this.age = 2037 - this.birthYear;
+      //     return this.age;
+      //   },
+
+      //   getSummary: function () {
+      //     return `${this.firstName} is ${this.calcAge()}-year old ${
+      //       this.job
+      //     }, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`;
+      //   },
+      // };
+      // console.log(jonas.calcAge());
+      // console.log(jonas.age);
+      // console.log(jonas.getSummary());
+
+      // const mark = {
+      //   fullName: "Mark Miller",
+      //   mass: 78,
+      //   height: 1.69,
+      //   calcBMI: function () {
+      //     this.bmi = this.mass / this.height ** 2;
+      //     return this.bmi;
+      //   },
+      // };
+
+      // const john = {
+      //   fullName: "John Smith",
+      //   mass: 92,
+      //   height: 1.95,
+
+      //   calcBMI: function () {
+      //     this.bmi = this.mass / this.height ** 2;
+      //     return this.bmi;
+      //   },
+      // };
+
+      // console.log(
+      //   mark.calcBMI() > john.calcBMI()
+      //     ? `${mark.fullName}'s BMI (${mark.calcBMI()}) is higher than  ${
+      //         john.fullName
+      //       }'s BMI (${john.calcBMI()})`
+      //     : `${john.fullName}'s  BMI (${john.calcBMI()}) is higher than  ${
+      //         mark.fullName
+      //       }'s BMI (${mark.calcBMI()})`
+      // );
+
+      // for (let exer = 1; exer < 6; exer++) {
+      //   console.log(`----starting exercise ${exer}`);
+
+      //   for (let rep = 1; rep < 4; rep++) {
+      //     console.log(`Exercise ${exer}: lifting weight repetition ${rep}`);
+
+      //     // for (let go = 1; go < 3; go++) {
+      //     //   console.log(`----go again ${go}`);
+      //     // }
+      //   }
+      // }
+
+      // let dice = Math.trunc(Math.random() * 6) + 1;
+      // // console.log(dice);
+      // while (dice !== 6) {
+      //   console.log(`You rolled dice ${dice}`);
+      //   dice = Math.trunc(Math.random() * 6) + 1;
+      // }
+      // const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+      // const tips = [];
+      // const totals = [];
+
+      // const calcTip = (bill) => {
+      //   return bill >= 50 && bill <= 300
+      //     ? (15 / 100) * bill
+      //     : (tip = (20 / 100) * bill);
+      // };
+
+      // for (let i = 0; i < bills.length; i++) {
+      //   tips.push(calcTip(bills[i]));
+      //   totals.push(calcTip(bills[i]) + bills[i]);
+      // }
+      // console.log(tips);
+      // console.log(totals);
+
+      // const calcAverage = (arr) => {
+      //   let sum = 0;
+      //   for (let i = 0; i < arr.length; i++) {
+      //     sum += arr[i];
+      //   }
+      //   return sum / arr.length;
+      // };
+      // console.log(calcAverage(totals));
+      /*    The problem is to print:
+      1. the temperatures from the array one after the other.
+      2. Match the corresponding day to the acurrate temperature
+
+      how to achieve the problem
+
+      1. Create the function
+      2. iterate through the array
+      3. Store the iteration index in an array
+      4. At each iteration add the number(index) of that iteration as the day for that forcast
+      */
+      // const printForcast = (arr) => {
+      //   let iterationIdex = 1;
+      //   let str = "";
+      //   for (let i = 0; i < arr.length; i++) {
+      //     str += `${arr[i]}C in ${iterationIdex++} days ...`;
+
+      //     // iterationIdex++;
+      //   }
+      //   console.log("... " + str);
+      // };
+      // printForcast([17, 21, 23]);
+      // printForcast([12, 5, -5, 0, 4]);
     </script>
   </body>
 </html>
